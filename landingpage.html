@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(254, 71, 5);
+    }
+    nav{
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+        box-shadow: 0px 3px 3px rgba(0, 0,0,0.3);
+    }
+    .saved img{
+        width: 200px;
+        height: 70px;
+    }
+    span{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-right: 100px;
+    }
+    .home p{
+        padding: 8px 10px;
+        margin: 0px 10px;
+    }
+    .home:hover p{
+        background-color:rgb(254, 71, 5);
+        color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px 8px rgba(0, 0,0,0.3);
+    }
+    .background{
+        /* background-color:#fff; */
+        background-image: url("stephen.jpg");
+        background-blend-mode:color-burn;
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+</style>
+<body>
+    
+        <nav>
+            <section>
+                <div class="saved">
+                    <img src="../Saved Pictures/phading.png" alt="">
+                </div>
+            </section>
+            <section>
+                <span>
+                    <div class="home">
+                        <p>Home </p>
+                    </div>
+                    <div class="home">
+                        <p>About Us </p>
+                    </div> 
+                    <div class="home">
+                        <p>Product</p>
+                    </div>
+                    <div class="home">
+                        <p>Gallery</p>
+                    </div>
+                    <div class="home">
+                        <p>Contact Us </p>
+                    </div>
+                    <div class="background">
+
+                    </div>
+                </span>
+            </section>
+        </nav>
+</body>
+</html>
