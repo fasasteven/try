@@ -21,6 +21,9 @@
     padding: 0px 40px;
     width: 100%;
 }
+.nav_bar:hover{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
 .nav_items{
     display: flex;
     gap:1.5em;
@@ -70,8 +73,8 @@ section{
     width: 120px;
     font-size: 15px;
     height: 40px;
-    border: 2px solid orangered;
-    color: orangered ;
+    border: 2px solid #Ec6027;
+    color: #Ec6027 ;
     border-radius: 8px;
     margin: 0px 30px;
 
